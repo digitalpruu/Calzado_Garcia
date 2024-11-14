@@ -14,7 +14,7 @@ html{
 .nav-container{
     width: 100%;
     height: auto;
-    background: #efa69f;
+    background: #ffddf8;
     nav{
         .logo-nav{
             display: flex;
@@ -34,7 +34,7 @@ html{
                     list-style: none;
                     a{
                         font-size: 2rem;
-                        color: white;
+                        color: #992268;
                         text-decoration: none;
                         font-weight: 700;
                         &:hover{
@@ -94,7 +94,7 @@ main{
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
             .product-card{
-                background-color: #ffc0ba;
+                background-color: #ffddf8;
                 scroll-snap-align: center;
                 margin: 0 10px;
                 width: 40vw;
@@ -136,7 +136,7 @@ main{
 
     .about-us{
         padding-top: 60px;
-        background-color: #e153eec2;
+        background-color: #ffddf8;
         .about-us-text{
             text-align: center;
             padding-bottom: 20px;
@@ -161,7 +161,7 @@ main{
     .contact{
         padding: 60px 0;
         text-align: center;
-        border-top: 1px solid black;
+        border-top: 1px solid #ffddf8;
         .contact-image{
             img{
                 width: 100vw;
@@ -184,7 +184,7 @@ main{
                     border-style: none;
                     font-size: 2rem;
                     padding: 10px 20px;
-                    color: white;
+                    color: #992268;
                     border-radius: 4px;
                     width: 80vw;
                     height: auto;
@@ -201,7 +201,7 @@ main{
 
 footer{
     padding: 0 10px;
-    background: linear-gradient(207.8deg, #ffc0ba 16.69%, #e053ee 100%);
+    background: #ffddf8;
     display: flex;
     flex-direction: column;
     align-items: center;

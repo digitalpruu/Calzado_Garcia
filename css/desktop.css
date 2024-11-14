@@ -8,7 +8,7 @@
   padding-left: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 24vw;
+  width: 16vw;
 }
 .nav-container nav .menu {
   display: flex;
@@ -30,6 +30,7 @@ main .hero .hero-title {
 }
 main .hero .hero-title div h1 {
   font-size: 7rem;
+  color: #992268;
 }
 main .hero .hero-title div h2 {
   font-size: 3.5rem;
@@ -78,7 +79,6 @@ main .about-us .about-us-img img {
   width: 45vw;
 }
 main .contact {
-  border-top: 1px solid black;
   padding: 60px 40px;
   display: flex;
 }

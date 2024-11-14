@@ -60,44 +60,68 @@
             </div>
 
         </section>
-
+        <style>
+            .image-prod{
+                width: 30vw;
+                height: 38vw;
+            }
+            .product-card h3{
+                padding: 10px;
+                color: #992268;
+            }
+            .prod-c{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                box-shadow: 0 0 5px #992268;
+            }
+            .product{
+                box-shadow: 0 0 5px #992268;
+            }
+            
+        </style>
         <section id="products" class="product">
             <h2>Productos</h2>
+
             <div class="product-section">
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/female-dress-sitting-with-her-hand-her-bag.jpg" alt="">
+                        <img class="image-prod" src="./assets/female-dress-sitting-with-her-hand-her-bag.jpg" alt="">
                     </div>
                     <h3>Sandalias</h3>
                 </div>
 
-                <div class="product-card">
-                    <div class="image-product">
-                        <img src="./assets/white-leather-loafers-shoes-women-s-fashion.jpg" alt="">
+                <div class="product-card prod-c">
+                    <div class="image-product ">
+                        <img class="image-prod" src="./assets/white-leather-loafers-shoes-women-s-fashion.jpg" alt="">
                     </div>
                     <h3>Mocasines</h3>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/side-view-woman-exercising-outdoors-active-wear.jpg" alt="">
+                        <img class="image-prod" src="./assets/side-view-woman-exercising-outdoors-active-wear.jpg" alt="">
                     </div>
                     <h3>Tenis deportivos</h3>
                 </div>
 
 
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/close-up-legs-wearing-heels.jpg" alt="">
+                        <img class="image-prod" src="./assets/close-up-legs-wearing-heels.jpg" alt="">
                     </div>
                     <h3>Tacones</h3>
                 </div>
-                
+
 
             </div>
 
         </section>
-
+        <style>
+            .about-us-text p{
+                text-align: justify;
+            }
+        </style>
         <section id="aboutus" class="about-us">
             <div class="about-us-text">
                 <h2>Sobre nosotros</h2>
@@ -122,8 +146,14 @@
             </div>
 
         </section>
-
-        <section id="contact" class="contact">
+        <style>
+            .bg-cont{
+                background-color: #ffddf8;
+                height: 80vh;
+                align-items: center;
+            }
+        </style>
+        <section id="contact" class="contact bg-cont">
             <div class="contact-image">
                 <img src="./assets/contactBanner.jpg" alt="">
             </div>
@@ -142,13 +172,51 @@
 
     <footer>
 
+        <style>
+            .social-media-icon{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(3, 55px);
+            }
+            .social-media-icon a{
+                margin: 0;
+            }
+
+            .media-logo-footer{
+                width: 50px;
+                height: auto;
+                margin: 0;
+                background: #992268;
+                border-radius: 10%;
+            }
+            .facebook-logo:hover{
+                background: #3b5998;
+                transform: scale(1.1);
+            }
+            .whatsapp-logo:hover{
+                background: #25d366;
+                transform: scale(1.1);
+            }
+            .instagram-logo:hover {
+                background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+                transform: scale(1.1);
+            }
+            .social-media{
+                padding-left: 50px;
+            }
+        </style>
         <div class="social-media">
             <h3>Siguenos</h3>
-            <div class="social-icons">
-                <a href="https://www.instagram.com"><img src="/assets/logotipo-de-instagram.png" alt=""></a>
-                <a href="https://www.facebook.com"><img src="/assets/facebook.png" alt=""></a>
-                <a href="https://www.tiktok.com"><img src="/assets/tik-tok.png" alt=""></a>
-                <a href="https://wa.link/iropg3"><img src="/assets/whatsapp.png" alt=""></a>
+            <div class="social-media-icon">
+                <a target="_blank" rel="noopener noreferrer"
+                   href="https://www.facebook.com">
+                    <img class="media-logo-footer facebook-logo" src="/assets/facebook.png"/></a>
+                <a target="_blank" rel="noopener noreferrer"
+                   href="https://www.instagram.com">
+                    <img class="media-logo-footer instagram-logo" src="/assets/instagram.png"/></a>
+                <a target="_blank" rel="noopener noreferrer"
+                   href="https://wa.link/iropg3">
+                    <img class="media-logo-footer whatsapp-logo" src="/assets/whatsapp.png"/></a>
             </div>
         </div>
 

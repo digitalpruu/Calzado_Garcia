@@ -16,7 +16,7 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background: #efa69f;
+  background: #ffddf8;
 }
 .nav-container nav .logo-nav {
   display: flex;
@@ -37,12 +37,12 @@ html {
 }
 .nav-container nav .menu ul li a {
   font-size: 2rem;
-  color: white;
+  color: #992268;
   text-decoration: none;
   font-weight: 700;
 }
 .nav-container nav .menu ul li a:hover {
-  color: black;
+  color: #c15091;
   transform: scale(2.1);
 }
 
@@ -91,7 +91,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #ffc0ba;
+  background-color: #ffddf8;
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -127,7 +127,7 @@ main .catalogue img {
 }
 main .about-us {
   padding-top: 60px;
-  background-color: rgba(225, 83, 238, 0.7607843137);
+  background-color: #ffddf8;
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -150,7 +150,7 @@ main .about-us .about-us-img img {
 main .contact {
   padding: 60px 0;
   text-align: center;
-  border-top: 1px solid black;
+  border-top: 1px solid #ffddf8;
 }
 main .contact .contact-image img {
   width: 100vw;
@@ -182,7 +182,8 @@ main .contact .contact-title a button:hover {
 
 footer {
   padding: 0 10px;
-  background: linear-gradient(207.8deg, #ffc0ba 16.69%, #e053ee 100%);
+  background: #ffddf8;
+  box-shadow: 0px 4px 10px #992268;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +194,7 @@ footer .social-media {
 footer .social-media h3 {
   padding: 15px 0;
   font-size: 2.5rem;
-  color: black;
+  color: #992268;
 }
 footer .social-media .social-icons a img {
   width: 15vw;
@@ -209,7 +210,7 @@ footer .number {
 footer .number p {
   font-size: 2rem;
   font-weight: 600;
-  color: black;
+  color: #992268;
 }
 footer .logo-footer {
   padding: 5px 0;
